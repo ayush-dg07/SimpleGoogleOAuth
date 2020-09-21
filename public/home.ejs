@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Homepage!<br>
+    <% if(!user) { %> 
+    <a href="/auth/login"> Login 
+    <% } else { %> 
+    <a href="/profile"> Profile
+    <% } %> 
+</body>
+</html>
